@@ -3,6 +3,8 @@ nav{
   border-radius: 25px;
   overflow: hidden;
   box-shadow: 5px 5px teal;
+  margin: 20px;
+  padding: 8px;
 }
 
 nav li{
@@ -23,6 +25,19 @@ a{
   text-decoration: none;
   text-transform: uppercase;
   line-height: 2;
+}
+
+a.skip{
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #326273;
+  text-decoration: none;
+  text-transform: lowercase;
+  line-height: 2;
+  border-radius: 10px;
+  box-shadow: 4px 4px #1c3a46;
+  margin: 25px;
+  padding: 10px;
 }
 
 a:hover{
