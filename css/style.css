@@ -1,24 +1,35 @@
+nav{
+  background-color: #F5DA61;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
 nav li{
-  padding: 10px;
+  padding: 16px 32px;
+  display: inline-block;
 }
 
 .active{
   background-color: #F6CC32;
   font-weight: bold;
-  border: 1px solid #EB9827; 
+  border: 1px dashed #EB9827; 
 }
 
 a{
-  color: #325283;
-  text-decoration: underline;
+  font-size: 18px;
+  color: #264E99;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 2;
 }
 
 a:hover{
-  color: #1C64D3;
+  color: #7299E1;
+  text-decoration: underline;
 }
 
 body{
-  font-family: 'Sans Serif';
+  font-family: Sans-serif;
   margin: 10px;
   padding: 10px;
 }
@@ -27,7 +38,7 @@ h1{
   font-size: 32px;
   color: #128ded;
   font-weight: bold;
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
 }
 
@@ -36,18 +47,29 @@ p{
   color: #000000;
   line-height: 2;
   padding: 10px;
+  margin: 20px 40px;
+}
+
+img.movie-poster{
+  width: 500px;
+  padding: 0px;
+  margin: 25px;
+  border-radius: 5px;
+  border: 2px #102A51 dashed;
 }
 
 img{
   width: 400px;
   padding: 5px;
   margin: 25px;
-  border: 1px #000000 dashed;
+  border: 1px solid #7299E1;
+  border-radius: 20px;
 }
 
-img:hover{
+img:nth-child(2n):hover{
   filter: grayscale();
   transform: scale(1.1);
+
 }
 
 ul{
